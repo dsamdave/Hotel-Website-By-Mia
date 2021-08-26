@@ -1,0 +1,394 @@
+@import url("https://use.typekit.net/qpr0lxo.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+section {
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+}
+
+.homefirst {
+    width:100%;
+    height: 100%;
+    background-blend-mode:screen;
+    background-position:bottom;
+    background-color: #14274A;
+    background-size:contain;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    margin-top: 0;
+    width: 90%;
+    color: black;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover {
+    border-bottom: 5px rgb(245, 189, 116) solid;
+}
+
+.navbar > div {
+    padding: 20px 29px;
+    font-size: 25px;
+    height: 45px;
+    align-items: center;
+}
+
+.contact {
+    color: white;
+}
+
+.home {
+    margin-left: auto;
+    align-items: center;
+}
+
+.logo {
+    margin-left:155px;
+    display: inline-block;
+    background-color: #E0B973;
+    border-bottom-left-radius: 46px;
+    border-bottom-right-radius: 46px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-family:adobe-garamond-pro, serif;
+}
+
+.logo h2 {
+   font-size: 25px;
+   flex:1;
+   margin: 0;
+   padding: 0;
+   font-family: adobe-garamond-pro, serif;
+}
+
+.logo h3 {
+    font-size: 15px;
+    font-weight:lighter;
+    margin: 0;
+    padding: 0;
+    color: black;
+
+}
+
+.anodahomefirst {
+    width: 100%;
+    height: 250px;
+    background-color: #14274A;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: rgb(245, 189, 116);
+    border:none;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    /* margin-left: 700px; */
+    margin-top: 75px;
+    width: 200px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.body {
+    display: flex;
+    flex-direction: column;
+    width: 1565px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.first {
+    margin-top: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 202px;
+    /* align-items: center; */
+    /* color: black; */
+}
+
+.first h3 {
+    font-family: adobe-garamond-pro, serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #14274A;
+    margin-bottom: 0;
+}
+
+.first p {
+    font-size: 30px;
+    color: #14274A;
+}
+
+.second {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content:left;
+    /* align-items: top; */
+    height: 100px;
+    width: 1200px;
+    padding-left: 122px;
+    margin-top: 120px;
+    color: #14274A;
+}
+
+.add {
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 0;
+    color: #14274A;
+}
+
+a {
+    text-decoration:none;
+    color: white;
+}
+
+.input {
+    font-size: 25px;
+    font-weight: 400;
+    color: #14274A;
+    padding-left: 20px;
+}
+
+input {
+    width: 500px;
+    height: 58px;
+    padding-left: 20px;
+}
+
+.message {
+    height: 280px;
+}
+
+.foot {
+    height: 320.99px;
+    width: 97%;
+    background-color: #14274A;
+    display: flex;
+    color: white;
+    align-items: center;
+    padding-left: 50px;
+    margin-top: 920px;
+}
+
+.one {
+    flex:1;
+}
+
+.anotherlogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    align-items: center;
+}
+
+.anotherlogo h3 {
+    color: white;
+    font-family:adobe-garamond-pro, serif;
+    font-size: 25px;
+    margin: 0;
+    font-weight: 700;
+    padding:0;
+}
+
+.anotherlogo h5 {
+    font-size: 9px;
+    margin:0;
+}
+
+.address {
+    margin-top: 15px;
+}
+
+.address p{
+    color:white;
+    font-size: 14px;
+    margin:0;
+}
+
+.two {
+    flex: 1;
+}
+.two p {
+    color: white;
+    font-size: 14px;
+}
+
+.three {
+    flex:1;
+}
+
+.icons {
+    padding-right: 15px;
+}
+
+.three p {
+    color: white;
+    font-size: 16px;
+}
+
+.four {
+    flex:1;
+}
+
+.four p {
+    color: white;
+    font-size: 16px;
+}
+
+.four .btn {
+    display:inline-block;
+    width: 70px;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    color: #14274A;
+    border: #E0B973 2px solid;
+}
+
+.four input {
+    height: 48px;
+    width: 276px;
+    border: 2px #E0B973 solid;
+    border-radius: 2px;
+    border-width: 2px;
+    color: #14274A;
+}
+
+input::placeholder {
+    font-family:adobe-garamond-pro, serif ;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width:700px) {
+    .container {
+        width: 700px;
+    }
+    
+    .homefirst {
+        width: 700px;
+    }    
+
+    .navbar {
+    width: 700px;
+    margin: 0;
+    padding: 0;
+} 
+
+    .logo {
+        margin-left:0px;
+       border-bottom-left-radius: 26px;
+        border-bottom-right-radius: 26px;
+        padding: 0;
+    }
+    
+    .logo h2 {
+       font-size: 15px;
+       padding: 0;
+    }
+    
+    .logo h3 {
+        font-size: 10px;
+        font-weight:lighter;
+        padding: 0;
+    }
+
+    .homefirst {
+        width: 700px;
+        height: 50px;
+        overflow: hidden;
+    }
+
+    .navbar > div {
+        padding: 5px 5px;
+        font-size: 15px;
+        height: 45px;
+        align-items: center;
+        /* margin-top: 18px; */
+    }
+
+    .home {
+        margin-left: 20px;
+    }
+
+    .contact {
+        font-size: 40px;
+    }
+    
+    .body {
+        width: 700px;
+        height: 100%;
+        overflow: hidden;
+        margin: 0;
+    }
+
+    .foot {
+        overflow: hidden;
+    }
+
+    .first {
+        margin: 0;
+        padding: 0;
+    }
+
+    .first h3 {
+        font-size: 25px;
+    }
+
+    .first p {
+        font-size: 15px;
+    }
+
+    .second {
+        grid: 2px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .add {
+        font-size: 15px;
+    }
+
+    .input {
+        font-size: 15px;
+    }
+
+}

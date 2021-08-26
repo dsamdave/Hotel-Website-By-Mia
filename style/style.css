@@ -1,0 +1,406 @@
+@import url("https://use.typekit.net/qpr0lxo.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.container-fluid{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+}
+
+.homefirst {
+    width:100%;
+    height: 100%;
+    background-image: url('/pics/9.jpg');
+    /* background-color: #14274A; */
+    /* background-color: rgba(247, 241, 241, 0.4); */
+    /* background-blend-mode:screen; */
+    background-size:contain;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .background {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+} */
+
+.navbar {
+    display: flex;
+    margin-top: 0;
+    width: 90%;
+    color: white;
+    font-weight: 400;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover {
+    border-bottom: 5px rgb(245, 189, 116) solid;
+}
+
+.navbar > div {
+    padding: 20px 29px;
+    font-size: 25px;
+    height: 45px;
+    align-items: center;
+}
+
+.home {
+    margin-left: auto;
+    align-items: center;
+    font-weight: bold;
+}
+
+.logo {
+    margin-left:155px;
+    display: inline-block;
+    background-color: #E0B973;
+    border-bottom-left-radius: 46px;
+    border-bottom-right-radius: 46px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-family:  adobe-garamond-pro, serif;
+}
+
+.logo h2 {
+   font-size: 25px;
+   flex:1;
+   margin: 0;
+   padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo h3 {
+    font-size: 15px;
+    font-weight:lighter;
+    margin: 0;
+    padding: 0;
+    color: black;
+
+}
+
+.hotelname {
+    margin-top: 100px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: 70%;
+}
+
+h3 {
+    color:white;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+    font-weight: 400;
+}
+
+h1 {
+    color: white;
+    line-height: 184.8px;
+    margin: 0;
+    font-size: 154px;
+    padding: 0;
+    font-family: adobe-garamond-pro,serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p {
+    color:white;
+    font-size: 20px;
+}
+
+.btn {
+    background-color: rgb(245, 189, 116);
+    border:none;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    /* margin-left: 700px; */
+    margin-top: 75px;
+    width: 200px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.house {
+    color: white;
+    width: 30px;
+    padding-right: 2px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.scroll {
+    /* margin-left: 749px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: -2px;
+    margin-bottom:0 ;
+}
+
+.scroll img {
+    width: 35px;
+    margin:0;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col-1 {
+    font-size: 36px;
+    padding: 50px 0;
+}
+
+.col-2 {
+    display: flex;
+    margin-left: 50px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.image {
+    flex: 1;
+}
+.bed {
+    width: 100%;
+    height: 100%;
+}
+
+.textone {
+    border-left: 2px black solid;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 1;
+}
+
+.textone h4 {
+    font-family: adobe-garamond-pro, serif;
+    font-size: 60px;
+    margin: 0 20px;
+}
+
+.textone p {
+    font-weight: 400;
+    font-size: 25px;
+    margin: 0 20px;
+    color: black;
+}
+
+.btntext {
+    background-color: rgb(245, 189, 116);
+    border:none;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    /* margin-left: 700px; */
+    margin-top: 90px;
+    width: 200px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.btntext a {
+    text-decoration: none;
+    color: white;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.col-3 {
+    display: flex;
+    margin-left: 50px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 30px;
+}
+
+.col-4{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding:0;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-4 h4 {
+    font-family: adobe-garamond-pro, serif;
+    font-size: 60px;
+    margin: 0;
+}
+
+.col-4 h5 {
+    font-size: 30px;
+    padding:0;
+    margin: 0;
+}
+
+.col-4 p {
+    font-size: 20px;
+    color: black;
+}
+
+
+.foot {
+    height: 320.99px;
+    width: 97%;
+    background-color: #14274A;
+    display: flex;
+    color: white;
+    align-items: center;
+    padding-left: 50px;
+    margin: 0;
+}
+
+.one {
+    flex:1;
+}
+
+.anotherlogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    align-items: center;
+}
+
+.anotherlogo h3 {
+    color: white;
+    font-family:adobe-garamond-pro, serif;
+    font-size: 25px;
+    margin: 0;
+    font-weight: 700;
+    padding:0;
+}
+
+.anotherlogo h5 {
+    font-size: 9px;
+    margin:0;
+}
+
+.address {
+    margin-top: 15px;
+}
+
+.address p{
+    color:white;
+    font-size: 14px;
+    margin:0;
+}
+
+.two {
+    flex: 1;
+}
+.two p {
+    color: white;
+    font-size: 14px;
+}
+
+.three {
+    flex:1;
+}
+
+.icons {
+    padding-right: 15px;
+}
+
+.three p {
+    color: white;
+    font-size: 16px;
+}
+
+.four {
+    flex:1;
+}
+
+.four p {
+    color: white;
+    font-size: 16px;
+}
+
+.four .btn {
+    display:inline-block;
+    width: 82px;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    color: #14274A;
+    border: #E0B973 2px solid;
+}
+
+input {
+    height: 48px;
+    width: 276px;
+    border: 2px #E0B973 solid;
+    border-radius: 2px;
+    border-width: 2px;
+    color: #14274A;
+}
+
+input::placeholder {
+    font-family:adobe-garamond-pro, serif ;
+    font-size: 20px;
+    font-weight: 600;
+}
